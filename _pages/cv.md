@@ -9,51 +9,57 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Education
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+- **University of California, Los Angeles**, Los Angeles, US  
+  Ph.D. in Computer Science, Advisor: Quanquan Gu  
+  2022 - Current
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **Tsinghua University**, Beijing, CN  
+  B.S. in Mathematics, Minor in Philosophy  
+  2018 - 2022
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research Interests
+
+**Machine Learning:** Reinforcement Learning, Deep Learning Theory  
+**Generative Model:** Diffusion Model, Large Language Model, Neural ODE  
+**AI for Health:** Epidemic Model, Causal Inference
+
+## Publications <small>(The asterisk * indicates equal contributions)</small>
+
+- [Why Does Sharpness-Aware Minimization Generalize Better Than SGD?](https://arxiv.org/abs/2310.07269)  
+  *Authors: Zixiang Chen\*, Junkai Zhang\*, Yiwen Kou, Xiangning Chen, Cho-Jui Hsieh, Quanquan Gu*  
+
+
+- [Optimal Horizon-Free Reward-Free Exploration for Linear Mixture MDPs](https://arxiv.org/abs/2303.10165)  
+  *Authors: Junkai Zhang, Weitong Zhang, Quanquan Gu*  
+
+
+## Projects
+
+### Fast Sampling Via De-randomization for Discrete Diffusion Models
+
+- Proposed a novel non-markov discrete diffusion process.
+- Developed a continuous-time (infinite-step) sampling algorithm.
+
+... (and so on)
+
+## Research Experience
+
+- **Graduate Student Researcher**, Department of Computer Science, UCLA, Sep. 2022 - Sep. 2023
+- **Research Assistant**, Department of Computer Science, Tsinghua University, Jul. 2021 - Dec. 2021
+
+## Teaching
+
+- **Teaching Assistant** at University of California, Los Angeles, Fall 2023  
+  Introduction to Computer Science II (CS 32)
+
+## Skills
+
+- **Programming:** Fluent in Python, R, Basic in C++
+- **Machine Learning:** Fluent in Pytorch (Pytorch Geometric)
+
+## Professional Services
+
+- **Conference Reviewer:** WSDM[2023], AISTATS[2024]
+
