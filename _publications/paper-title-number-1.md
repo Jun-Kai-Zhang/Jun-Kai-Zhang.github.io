@@ -3,7 +3,7 @@ title: "Why Does Sharpness-Aware Minimization Generalize Better Than SGD?"
 collection: publications
 permalink: /publication/paper-title-number-1
 excerpt: ''
-date: 2023-05-1
+date: 2023-05-01
 venue: 'Proc. of Advances in Neural Information Processing Systems'
 paperurl: 'https://arxiv.org/pdf/2310.07269.pdf'
 ---

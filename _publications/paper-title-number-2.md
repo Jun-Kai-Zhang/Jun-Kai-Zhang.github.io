@@ -3,7 +3,7 @@ title: "Optimal Horizon-Free Reward-Free Exploration for Linear Mixture MDPs"
 collection: publications
 permalink: /publication/paper-title-number-2
 excerpt: ''
-date: 2023-09
+date: 2023-09-01
 venue: 'International Conference on Machine Learning'
 paperurl: 'https://arxiv.org/pdf/2303.10165.pdf'
 ---
