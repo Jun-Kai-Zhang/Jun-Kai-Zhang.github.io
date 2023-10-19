@@ -27,9 +27,3 @@ author_profile: true
   - Proposed an algorithm for reward-free exploration in the linear mixture MDP setting. The algorithm guided the agent to collect samples using a exploration-driven pseudo-reward function.
   - Rigorously proved that our algorithm can achieve a horizon-free sample complexity based on high-order moment estimation that precisely controls the aleatoric and epistemic uncertainty.
   - Established the theoretical lower bound for reward-free algorithm in linear mixture MDP, which matches our upper bound and further proved the optimality of our algorithm.
-
-
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
