@@ -28,12 +28,12 @@ redirect_from:
 ## Publications <small>(The asterisk * indicates equal contributions)</small>
 
 - [Why Does Sharpness-Aware Minimization Generalize Better Than SGD?](https://arxiv.org/abs/2310.07269)  
-  *Authors: Zixiang Chen\*, Junkai Zhang\*, Yiwen Kou, Xiangning Chen, Cho-Jui Hsieh, Quanquan Gu*  
-
+  *Authors: Zixiang Chen\*, Junkai Zhang\*, Yiwen Kou, Xiangning Chen, Cho-Jui Hsieh, Quanquan Gu*
+  in *Advances in Neural Information Processing Systems, 2023* 
 
 - [Optimal Horizon-Free Reward-Free Exploration for Linear Mixture MDPs](https://arxiv.org/abs/2303.10165)  
   *Authors: Junkai Zhang, Weitong Zhang, Quanquan Gu*  
-
+in *International Conference on Machine Learning, 2023*
 
 ## Projects
 
