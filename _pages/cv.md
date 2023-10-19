@@ -38,7 +38,7 @@ in *International Conference on Machine Learning, 2023*
 ## Projects
 
 ### Fast Sampling Via De-randomization for Discrete Diffusion Models
-*<p style="text-align:left;">Prof. Quanquan Gu<span style="float:right;">Jul. 2023 - Current</span></p>*
+<p style="text-align:left;">Prof. Quanquan Gu<span style="float:right;">Jul. 2023 - Current</span></p>
 
 
 - Proposed a novel non-markov discrete diffusion process by introducing transition time set. Significantly reduced the number of function evaluations required during the reverse process, achieving up to a $30\times$ speedup in sampling while maintaining or improving generation quality.
@@ -46,7 +46,7 @@ in *International Conference on Machine Learning, 2023*
 - Developed a continuous-time (infinite-step) sampling algorithm capable of generating even higher-quality samples compared to its discrete-time (finite-step) counterpart.
 
 ### Continuous Treatment Effect Modeling in Multi-agent Dynamical Systems
-*<p style="text-align:left;">Prof. Quanquan Gu, Prof. Dominik Wodarz, Prof. Yizhou Sun, Prof. Wei Wang<span style="float:right;">Nov. 2022 - Current</span></p>*
+<p style="text-align:left;">Prof. Quanquan Gu, Prof. Dominik Wodarz, Prof. Yizhou Sun, Prof. Wei Wang<span style="float:right;">Nov. 2022 - Current</span></p>
 
 - Launched the interdisciplinary project towards explainable AI for health using multi-source data, supported by NSF 21590.
 
@@ -55,7 +55,7 @@ in *International Conference on Machine Learning, 2023*
 - Proposed domain adversarial training objectives to mitigate confounding bias and improve predictions, outperforming all baselines in COVID-19 dataset and tumor growth simulation dataset.
 
 ### Temporal Modeling and Prediction of Recurrent COVID-19 Infections
-*<p style="text-align:left;">Guide: Prof. Quanquan Gu<span style="float:right;">Dec. 2022 - Mar. 2023</span></p>*
+<p style="text-align:left;">Guide: Prof. Quanquan Gu<span style="float:right;">Dec. 2022 - Mar. 2023</span></p>
 
 - Collaborated with Cedars-Sinai Medical Center to tackle the ongoing challenge of recurrent COVID-19 infections in the post-pandemic era.
 - Developed a novel variant of the SEIR epidemiological model to quantitatively assess the number of  first-time and recurring infection cases. 
@@ -63,7 +63,7 @@ in *International Conference on Machine Learning, 2023*
 
 
 ### Response Subject Discrimination during Multi-device Human-computer Interaction
-*<p style="text-align:left;">Guide: Prof. Yuntao Wang<span style="float:right;">Jun. 2021 - Dec. 2021</span></p>*
+<p style="text-align:left;">Guide: Prof. Yuntao Wang<span style="float:right;">Jun. 2021 - Dec. 2021</span></p>
 
 - Employed physical properties inspired machine learning techniques to extract acoustic features of wake-up words voice recordings.
 
