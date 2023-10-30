@@ -65,6 +65,10 @@ in *International Conference on Machine Learning (__ICML__), 2023*
 - **Research Assistant**, Department of Computer Science, Tsinghua University, Jul. 2021 - Dec. 2021
 - **Research Assistant**, Yanqi Lake Beijing Institute of Mathematical Sciences and Applications, Nov. 2020 - Mar. 2021
 
+
+## Award
+- **NeurIPS 2023** Scholar Award
+
 ## Teaching
 
 - **Teaching Assistant** at University of California, Los Angeles, Fall 2023  
