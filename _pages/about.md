@@ -13,6 +13,6 @@ I'm now a second-year Ph.D. student in the Computer Science Department at the Un
 News
 ======
 - [Oct. 2023] Two papers accepted by **Neurips 2023** workshops! 
-- [Oct. 2023] Delighted to share that I have been honored with the **NeurIPS 2023** Scholar Award!
+- [Oct. 2023] I have been honored with the **NeurIPS 2023** Scholar Award!
 - [Sep. 2023] Our paper *"Why Does Sharpness-Aware Minimization Generalize Better Than SGD?"* was acceped by **NeurIPS 2023**.
 - [May. 2023] Our paper *"Optimal Horizon-Free Reward-Free Exploration for Linear Mixture MDPs"* was accepted by **ICML 2023**
