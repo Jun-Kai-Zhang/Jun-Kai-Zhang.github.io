@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm now a second-year Ph.D. student in the Computer Science Department at the University of California, Los Angeles, advised by [Quanquan Gu](https://web.cs.ucla.edu/~qgu/). I am broadly interested in generative models, the foundation of machine learning, and AI for health. I received my B.S. degree in Mathematics from Tsinghua University in 2022, with a minor in Philosophy.
+I'm now a second-year Ph.D. student in the Computer Science Department at the University of California, Los Angeles. I am broadly interested in AI for Science and the foundation of machine learning. I received my B.S. degree in Mathematics from Tsinghua University in 2022, with a minor in Philosophy.
