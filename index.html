@@ -104,12 +104,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="trigger">
     <a class="page-link" href="#bio"><b>Biography</b></a>
     <a class="page-link" href="#timeline"><b>Education</b></a>
-    <a class="page-link" href="#timeline"><b>Experiences</b></a>
+    <!-- <a class="page-link" href="#timeline"><b>Experiences</b></a> -->
     <a class="page-link" href="#publications"><b>Publications</b></a>
     <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
     <a class="page-link" href="#teaching"><b>Teaching </b></a>
     <a class="page-link" href="#academicservices"><b>Academic Services </b></a>
-    <a class="page-link" href="#misc"><b>Misc</b></a>
+    <!-- <a class="page-link" href="#misc"><b>Misc</b></a> -->
+    <a class="page-link" href="#calendar"><b>Calendar</b></a>
     <!--<a class="page-link" href="#otherprojects">Projects</a>-->
     <!-- Button for Posts -->
   </div>
@@ -745,7 +746,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <i class="fa fa-tasks" aria-hidden="true"></i>
         Academic Services
       </h1>  
-      <b>Conference Reviewer:</b> ICLR, AAAI, AISTATS<br>
+      <b>Conference Reviewer:</b> ICLR, ICML, AAAI, AISTATS, NAACL<br>
       <b>Volunteer:</b> NeurIPS 2024
     </div>
   </div>
@@ -758,7 +759,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div class="wrapper">
+<!-- <div class="wrapper">
   <div id="misc" class="bio">
     <div class="bio-body" style="overflow:hidden;">
       <h1 class="md-heading text-left">
@@ -776,6 +777,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </a></p></td>
         </tr></tbody>
       </table>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- <div class="wrapper">
+  <div id="timezone" class="bio">
+    <div class="bio-body" style="overflow:hidden;">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        Time Zone
+      </h1>
+      <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+        <select id="timezone-select" style="padding: 8px; font-size: 16px;" onchange="updateCalendar()">
+          <option value="America/Los_Angeles">Los Angeles (PST/PDT)</option>
+          <option value="Asia/Shanghai">Shanghai (CST)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<script>
+function updateCalendar() {
+  const timezone = document.getElementById('timezone-select').value;
+  const calendarFrame = document.querySelector('#calendar iframe');
+  const baseUrl = "https://calendar.google.com/calendar/embed?height=600&wkst=1&showPrint=0&mode=WEEK";
+  const sources = "&src=amt6aGFuZ0BnLnVjbGEuZWR1&src=anVua2FpemhhbmcxOEBnbWFpbC5jb20&color=%23039BE5&color=%23B39DDB";
+  calendarFrame.src = `${baseUrl}&ctz=${timezone}${sources}`;
+}
+</script>
+
+<div class="wrapper">
+  <div id="calendar" class="bio">
+    <div class="bio-body" style="overflow:hidden;">
+      <h1 class="md-heading text-left">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        Calendar
+      </h1>  
+      <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+        <span style="margin-right: 10px; font-weight: 500;">Time Zone:</span>
+        <select id="timezone-select" style="padding: 8px; font-size: 16px; border-radius: 4px; border: 1px solid #ccc; background-color: #fff;" onchange="updateCalendar()">
+          <option value="America/Los_Angeles">Los Angeles (PST/PDT)</option>
+          <option value="Asia/Shanghai">Shanghai (CST)</option>
+        </select>
+      </div>
+      <div style="display: flex; justify-content: center;">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&mode=WEEK&src=amt6aGFuZ0BnLnVjbGEuZWR1&src=anVua2FpemhhbmcxOEBnbWFpbC5jb20&color=%23039BE5&color=%23B39DDB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>      </div>
     </div>
   </div>
 </div>
