@@ -110,7 +110,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a class="page-link" href="#teaching"><b>Teaching </b></a>
     <a class="page-link" href="#academicservices"><b>Academic Services </b></a>
     <!-- <a class="page-link" href="#misc"><b>Misc</b></a> -->
-    <a class="page-link" href="#calendar"><b>Calendar</b></a>
+    <a class="page-link" href="calendar.html"><b>Calendar</b></a>
     <!--<a class="page-link" href="#otherprojects">Projects</a>-->
     <!-- Button for Posts -->
   </div>
@@ -253,8 +253,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <tr>
           <td width="90%">
               <strong>B.S.</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Aug. 2018 - Jun. 2022 <br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Tsinghua University (THU)</b> , Beijing, China.<br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  B.S. in Mathematics<br> 
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Tsinghua University (THU)</b>, Beijing, China.<br>
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  B.S. in Mathematics, Minor in Philosophy<br>
           </td>
           <td width="10%">
             <img src="images/icon/tsinghua.png" width="90%" style="display: block; margin-left: auto; margin-right: auto;">
@@ -404,7 +404,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- <b><span>Advances in Neural Information Processing Systems (NeurIPS 2024)</span></b> -->
       </div>
     </div>
-
+    
+    
+    <hr style="width: 95%; border: 1px solid lightgray; margin: auto;">
     <!-- First Publication -->
     <div class="pub">
       <div class="pub-left">
@@ -448,7 +450,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        <b><span>NAACL 2025 - Demo Track</span></b>
       </div>
     </div>
-
+    
+    <hr style="width: 95%; border: 1px solid lightgray; margin: auto;">
     <!-- First Publication -->
     <div class="pub">
       <div class="pub-left">
@@ -479,7 +482,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <b><span>Advances in Neural Information Processing Systems (NeurIPS 2024)</span></b>
       </div>
     </div>
-
+    
+    <hr style="width: 95%; border: 1px solid lightgray; margin: auto;">
     <!-- Second Publication -->
     <div class="pub">
       <div class="pub-left">
@@ -510,6 +514,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
+    <hr style="width: 95%; border: 1px solid lightgray; margin: auto;">
     <!-- Third Publication -->
     <div class="pub">
       <div class="pub-left">
@@ -545,6 +550,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
+    <hr style="width: 95%; border: 1px solid lightgray; margin: auto;">
     <!-- Fourth Publication -->
     <div class="pub">
       <div class="pub-left">
@@ -575,6 +581,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <b><span>Advances in Neural Information Processing Systems (NeurIPS 2023)</span></b>
       </div>
     </div>
+
+    <hr style="width: 95%; border: 1px solid lightgray; margin: auto;">
 
     <!-- Fifth Publication -->
     <div class="pub">
@@ -800,35 +808,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div> -->
 
-<script>
-function updateCalendar() {
-  const timezone = document.getElementById('timezone-select').value;
-  const calendarFrame = document.querySelector('#calendar iframe');
-  const baseUrl = "https://calendar.google.com/calendar/embed?height=600&wkst=1&showPrint=0&mode=WEEK";
-  const sources = "&src=amt6aGFuZ0BnLnVjbGEuZWR1&src=anVua2FpemhhbmcxOEBnbWFpbC5jb20&color=%23039BE5&color=%23B39DDB";
-  calendarFrame.src = `${baseUrl}&ctz=${timezone}${sources}`;
-}
-</script>
-
-<div class="wrapper">
-  <div id="calendar" class="bio">
-    <div class="bio-body" style="overflow:hidden;">
-      <h1 class="md-heading text-left">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-        Calendar
-      </h1>  
-      <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
-        <span style="margin-right: 10px; font-weight: 500;">Time Zone:</span>
-        <select id="timezone-select" style="padding: 8px; font-size: 16px; border-radius: 4px; border: 1px solid #ccc; background-color: #fff;" onchange="updateCalendar()">
-          <option value="America/Los_Angeles">Los Angeles (PST/PDT)</option>
-          <option value="Asia/Shanghai">Shanghai (CST)</option>
-        </select>
-      </div>
-      <div style="display: flex; justify-content: center;">
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&mode=WEEK&src=amt6aGFuZ0BnLnVjbGEuZWR1&src=anVua2FpemhhbmcxOEBnbWFpbC5jb20&color=%23039BE5&color=%23B39DDB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>      </div>
-    </div>
-  </div>
-</div>
 
 
 
@@ -875,8 +854,8 @@ function updateCalendar() {
 
       </div>
 	<div class="footer-col footer-col-3">
-    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjun-kai-zhang.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-		<p class="text">Last updated: Feb, 2025.<br>The style of this website is credit to <a href='https://wanjiazhao1203.github.io'>Wanjia Zhao</a>.</p>
+    <!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjun-kai-zhang.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+		<p class="text">Last updated: Feb, 2025.<br>The style of this website is borrowed from <a href='https://wanjiazhao1203.github.io'>Wanjia Zhao</a>.</p>
 	</div>
   </div>
   </div>
