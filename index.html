@@ -1,762 +1,269 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-
+<html lang="en">
+<head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	  
-	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
+  <title>Junkai Zhang</title>
+  <meta name="description" content="Academic website for Junkai Zhang, CS PhD candidate at UCLA.">
 
-  <title>Junkai Zhang 张峻恺</title>
-  <meta name="description" lang="en" content="This is an academic website for Junkai Zhang">
-  <meta name="keywords" lang="en" content="Junkai Zhang." />
-  
-
-  <link rel="shortcut icon" href="images/icon/z.jpg">
   <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="css/custom.css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="stylesheet" href="css/academicons.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-
-
-  <script src="js/jquery-2.1.3.min.js"> </script>
-
-  <!--[if lt IE 9]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
-</script>
-<![endif]-->
-
-  <script type="text/javascript">
-    function ShowHide(divId, linkDivId) {
-        if(document.getElementById(divId).style.display == 'none') {
-            document.getElementById(divId).style.display='block';
-            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
-        }
-        else {
-            document.getElementById(divId).style.display = 'none';
-        }
-    }
-  </script>
-
-  <style>
-   
-    li.indented {
-        position: relative;
-        padding-left: 90px; 
-    }
-
-    li.indented::before {
-        content: attr(data-date);
-        position: absolute;
-        left: 0;
-        top: 0;
-        white-space: nowrap;
-    }
-  </style>
-  
 </head>
-
-
 <body>
 
-
-    <header class="site-header">
-
-  <div class="wrapper">
-<nav class="site-nav">
-  <a href="#" class="menu-icon">
-    <svg viewBox="0 0 18 15">
-      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-    </svg>
-  </a>
-
-  <div class="trigger">
-    <a class="page-link" href="#bio"><b>Biography</b></a>
-    <a class="page-link" href="#timeline"><b>Education</b></a>
-    <a class="page-link" href="#Experiences"><b>Experiences</b></a>
-    <a class="page-link" href="#publications"><b>Publications</b></a>
-    <!-- <a class="page-link" href="#awards"><b>Honors & Awards</b></a> -->
-    <a class="page-link" href="#teaching"><b>Teaching </b></a>
-    <a class="page-link" href="#academicservices"><b>Services </b></a>
-    <!-- <a class="page-link" href="#misc"><b>Misc</b></a> -->
-    <a class="page-link" href="calendar.html"><b>Calendar</b></a>
-    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
-    <!-- Button for Posts -->
-  </div>
-</nav>
-  </div>
-</header>
-
-  <div id="profile-cover" class="cover shallow-bg img-responsive"> 
-    <div id="profile-namecard" class="profile-wrapper wrapper-light">
-      <div id="my-pic" class="profile-col profile-col-1">
-        <img id="profile-avatar" src="./images/self-portrait/me.png" alt="Me" class="circle-img border-dark"-/>
-      </div>
-      <div id="my-contact" class="profile-col profile-col-2">
-        <div id="my-name" class="text-grey-dark">
-          Junkai Zhang (张峻恺)<br>
-        </div>
-        <div id="my-title" class="text-grey">
-          CS PhD Candidate @ UCLA
-        </div>
-        <div class="social-media">
-          <a href="https://scholar.google.com/citations?user=BgkFlTYAAAAJ&hl=en" class="icon-button github">
-          <i class="ai ai-google-scholar-square icon-github"></i>
-            <span></span>
-          </a>
-
-          <a href="https://www.linkedin.com/in/junkai-zhang-878787208/" class="icon-button linkedin">
-            <i class="fa fa-linkedin icon-linkedin"></i>
-            <span></span>
-          </a>
-          
-          <a href="https://x.com/JunkaiZZ" class="icon-button twitter">
-            <i class="fa fa-twitter icon-twitter"></i>
-            <span></span>
-          </a>
-
-          <a href="CV.pdf" class="icon-button github" target="_blank">
-            <i class="fa fa-file-text icon-github"></i>
-            <span></span>
-          </a>
-
-          <!-- <a href="mailto:zhang@cs.ucla.edu" class="icon-button github">
-            <i class="fa fa-envelope icon-github"></i>
-            <span></span>
-          </a> -->
-        </div>
-      </div>
+  <nav>
+    <a href="#" class="nav-name">Junkai Zhang</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#teaching">Teaching</a>
+      <a href="CV.pdf" target="_blank">CV</a>
     </div>
-  </div>
+  </nav>
 
+  <main>
 
-<div class="wrapper">
-<div id="bio" class="bio">
-
-  <h1 class="md-heading text-left">
-    <i class="fa fa-id-card" aria-hidden="true"></i>
-    About
-  </h1>
-  <div class="bio-body" style="overflow:hidden;">
-    <p> 
-      I'm now a fourth-year Ph.D. candidate in the Computer Science Department at UCLA. I am fortunate to be advised by Professor <a href="https://web.cs.ucla.edu/~weiwang/">Wei Wang</a>. I am broadly interested in Large Language Model post-training. I received my B.S. degree in Mathematics from Tsinghua University in 2022, with a minor in Philosophy
-      <br>
-    </p>
-  </div>
-</div>
-</div>
-
-
-<div class="wrapper">
-<div id="Education" class="bio">
-
-  <h1 class="md-heading text-left">
-    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-    Education
-  </h1>
-  <div class="bio-body" style="overflow:hidden;">
-    <table>
-      <tbody><tr>
-          <td width="90%">
-              <br>
-              <strong>Ph.D.</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Sep. 2022 - Present  <br> 
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>University of California, Los Angeles (UCLA)</b>, Los Angeles, CA, U.S.<br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ph.D. student in Computer Science
-                <br>
-            </td>
-          <td width="10%">
-            <img src="images/icon/ucla.png" width="90%" style="display: block; margin-left: auto; margin-right: auto;">
-          </td>
-        </tr>
-        <tr>
-          <td width="90%">
-              <strong>B.S.</strong> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Aug. 2018 - Jun. 2022 <br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b>Tsinghua University (THU)</b>, Beijing, China.<br>
-              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  B.S. in Mathematics, Minor in Philosophy<br>
-          </td>
-          <td width="10%">
-            <img src="images/icon/tsinghua.png" width="90%" style="display: block; margin-left: auto; margin-right: auto;">
-          </td>
-        </tr>
-    </tbody></table>
-  </div>
-  <br>
-</div>
-</div>
-
-
-
-<div class="wrapper">
-<div id="Experiences" class="bio">
-
-  <h1 class="md-heading text-left">
-    <i class="fa fa-tasks" aria-hidden="true"></i>
-    Professional Experience
-  </h1>
-  <div class="bio-body" style="overflow:hidden;">
-    <table>
-
-      <tr>
-        <td width="90%">
-          <strong>Oct. 2025 -- Dec. 2025</strong><br>
-          <strong>Google</strong>, Playa Vista, CA, U.S.<br>
-          Student Researcher<br>
-        </td>
-        <td width="10%">
-          <img src="images/icon/google_logo.png" width="80%" style="display: block; margin-left: auto; margin-right: auto;">
-        </td>
-      </tr>
-
-      <tr style="height: 15px;">
-        <td></td>
-        <td></td>
-      </tr>
-
-      <tr>
-        <td width="90%">
-          <strong>Jun. 2025 -- Sep. 2025</strong><br>
-          <strong>Scale AI</strong>, San Francisco, CA, U.S.<br>
-          Post-training Research Intern<br>
-        </td>
-        <td width="10%">
-          <img src="images/icon/scale_logo.png" width="80%" style="display: block; margin-left: auto; margin-right: auto;">
-        </td>
-      </tr>
-
-      <tr style="height: 15px;">
-        <td></td>
-        <td></td>
-      </tr>
-
-    </tbody></table>
-  </div>
-  <br>
-</div>
-</div>
-
-
-
-<div class="wrapper">
-<div id="publications" class="publications">
-  <h1 class="md-heading text-left">
-    <i class="fa fa-file" aria-hidden="true"></i>
-    Publications & Manuscripts
-  </h1>
-
-  <div class="pub-list">
-
-    <!-- Selected Works Section -->
-    <h2 style="color: #2774AE; font-weight: 500; margin-top: 20px; margin-bottom: 15px;">Selected Works</h2>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <img src="./images/self-portrait/me.png" alt="Junkai Zhang" class="avatar">
+        <div>
+          <h1>Junkai Zhang <span class="cn">张峻恺</span></h1>
+          <p class="subtitle">CS PhD Candidate @ UCLA</p>
+          <p class="links">
+            <a href="mailto:jkzhang@ucla.edu">Email</a>
+            <span class="sep">/</span>
+            <a href="https://scholar.google.com/citations?user=PLACEHOLDER" target="_blank">Google Scholar</a>
+            <span class="sep">/</span>
+            <a href="https://www.semanticscholar.org/author/Junkai-Zhang/2211594196" target="_blank">Semantic Scholar</a>
+            <span class="sep">/</span>
+            <a href="https://www.linkedin.com/in/junkai-zhang-878787208/" target="_blank">LinkedIn</a>
+            <span class="sep">/</span>
+            <a href="CV.pdf" target="_blank">CV</a>
+          </p>
         </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author"><b>Junkai Zhang*</b></a>,
-            <a class="author">Zihao Wang*</a>,
-            <a class="author">Lin Gui*</a>,
-            <a class="author">Swarnashree Mysore Sathyendra</a>,
-            <a class="author">Jaehwan Jeong</a>,
-            <a class="author">Victor Veitch</a>,
-            <a class="author">Wei Wang</a>,
-            <a class="author">Yunzhong He</a>,
-            <a class="author">Bing Liu</a>,
-            <a class="author">Lifeng Jin</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/pdf/2509.21500"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://github.com/Jun-Kai-Zhang/rubrics"><strong>Code</strong></a>]
-          [<a class="tag" href="https://huggingface.co/datasets/JunkaiZ/Rubrics"><strong>Dataset</strong></a>]
-        </div>
-        <b><span>International Conference on Learning Representations (ICLR) 2026</span></b>
       </div>
-    </div>
+    </section>
 
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          DuoGuard: A Two-Player RL-Driven Framework for Multilingual LLM Guardrails
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Yihe Deng*</a>,
-            <a class="author">Yu Yang*</a>,
-            <a class="author"><b>Junkai Zhang*</b></a>,
-            <a class="author">Wei Wang</a>,
-            <a class="author">Bo Li</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2502.05163"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://github.com/yihedeng9/DuoGuard"><strong>Code</strong></a>]
-          [<a class="tag" href="https://huggingface.co/collections/DuoGuard/duoguard-models"><strong>Model</strong></a>]
-        </div>
-        <b><span>Annual Conference on Artificial Intelligence and Statistics (AISTATS) 2026</span></b>
-      </div>
-    </div>
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I'm a fourth-year Ph.D. candidate in Computer Science at UCLA, advised by Professor
+        <a href="https://web.cs.ucla.edu/~weiwang/">Wei Wang</a>.
+        I am broadly interested in Large Language Model post-training.
+        I received my B.S. in Mathematics from Tsinghua University in 2022, with a minor in Philosophy.
+      </p>
+    </section>
 
-    <!-- Reinforcement Learning Section -->
-    <h2 style="color: #2774AE; font-weight: 500; margin-top: 30px; margin-bottom: 15px;">Reinforcement Learning</h2>
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
 
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Uncertainty-Aware Reward-Free Exploration with General Function Approximation
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">UCLA</span>
+          <span class="entry-date">Sep 2022 – Present</span>
         </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author"><b>Junkai Zhang*</b></a>,
-            <a class="author">Weitong Zhang*</a>,
-            <a class="author">Dongruo Zhou</a>,
-            <a class="author">Quanquan Gu</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2406.16255"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://github.com/Jun-Kai-Zhang/gfa-rfe"><strong>Code</strong></a>]
-        </div>
-        <b><span>International Conference on Machine Learning (ICML) 2024</span></b>
-      </div>
-    </div>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Optimal Horizon-Free Reward-Free Exploration for Linear Mixture MDPs
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author"><b>Junkai Zhang</b></a>,
-            <a class="author">Weitong Zhang</a>,
-            <a class="author">Quanquan Gu</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2303.10165"><strong>Paper</strong></a>]
-        </div>
-        <b><span>International Conference on Machine Learning (ICML) 2023</span></b>
-      </div>
-    </div>
-
-     <!-- Optimization Methods Section -->
-    <h2 style="color: #2774AE; font-weight: 500; margin-top: 30px; margin-bottom: 15px;">Optimization Methods</h2>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Why Does Sharpness-Aware Minimization Generalize Better Than SGD?
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Zixiang Chen*</a>,
-            <a class="author"><b>Junkai Zhang*</b></a>,
-            <a class="author">Yiwen Kou</a>,
-            <a class="author">Xiangning Chen</a>,
-            <a class="author">Cho-Jui Hsieh</a>,
-            <a class="author">Quanquan Gu</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2310.07269"><strong>Paper</strong></a>]
-        </div>
-        <b><span>Advances in Neural Information Processing Systems (NeurIPS) 2023</span></b>
-      </div>
-    </div>
-    
-    <!-- AI for Science Section -->
-    <h2 style="color: #2774AE; font-weight: 500; margin-top: 30px; margin-bottom: 15px;">AI for Science</h2>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          MatSciBench: Benchmarking the Reasoning Ability of LLM in Material Science
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author"><b>Junkai Zhang*</b></a>,
-            <a class="author">Jingru Gan*</a>,
-            <a class="author">Zian Jia</a>,
-            <a class="author">Changquan Gu</a>,
-            <a class="author">Jianpeng Chen</a>,
-            <a class="author">Xiaoxuan Wang</a>,
-            <a class="author">Yanqiao Zhu</a>,
-            <a class="author">Mingyu Derek Ma</a>,
-            <a class="author">Dawei Zhou</a>,
-            <a class="author">Ling Li</a>,
-            <a class="author">Wei Wang</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/pdf/2510.12171"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://github.com/Jun-Kai-Zhang/MatSciBench"><strong>Code</strong></a>]
-          [<a class="tag" href="https://huggingface.co/datasets/MatSciBench/MatSciBench"><strong>Dataset</strong></a>]
-        </div>
-        <b><span>In Submission, available on arXiv</span></b>
-      </div>
-    </div>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Jingyuan Qi</a>,
-            <a class="author">Zian Jia</a>,
-            <a class="author">Minqian Liu</a>,
-            <a class="author">Wangzhi Zhan</a>,
-            <a class="author"><b>Junkai Zhang</b></a>,
-            <a class="author">Xiaofei Wen</a>,
-            <a class="author">Jingru Gan</a>,
-            <a class="author">Jianpeng Chen</a>,
-            <a class="author">Qin Liu</a>,
-            <a class="author">Mingyu Derek Ma</a>,
-            <a class="author">Bangzheng Li</a>,
-            <a class="author">Haohui Wang</a>,
-            <a class="author">Adithya Kulkarni</a>,
-            <a class="author">Muhao Chen</a>,
-            <a class="author">Dawei Zhou</a>,
-            <a class="author">Ling Li</a>,
-            <a class="author">Wei Wang</a>,
-            <a class="author">Lifu Huang</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2412.16270"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://zhoulab-1.cs.vt.edu:5557"><strong>Demo</strong></a>]
-        </div>
-        <b><span>NAACL 2025 - Demo Track</span></b>
-      </div>
-    </div>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Protein Large Language Models: A Comprehensive Survey
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Yijia Xiao</a>,
-            <a class="author">Wanjia Zhao</a>,
-            <a class="author"><b>Junkai Zhang</b></a>,
-            <a class="author">Yiqiao Jin</a>,
-            <a class="author">Han Zhang</a>,
-            <a class="author">Zhicheng Ren</a>,
-            <a class="author">Renliang Sun</a>,
-            <a class="author">Haixin Wang</a>,
-            <a class="author">Guancheng Wan</a>,
-            <a class="author">Pan Lu</a>,
-            <a class="author">Xiao Luo</a>,
-            <a class="author">Yu Zhang</a>,
-            <a class="author">James Zou</a>,
-            <a class="author">Yizhou Sun</a>,
-            <a class="author">Wei Wang</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/pdf/2502.17504"><strong>Paper</strong></a>]
-        </div>
-        <b><span>EMNLP 2025 Findings</span></b>
-      </div>
-    </div>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Jianpeng Chen</a>,
-            <a class="author">Wangzhi Zhan</a>,
-            <a class="author">Haohui Wang</a>,
-            <a class="author">Zian Jia</a>,
-            <a class="author">Jingru Gan</a>,
-            <a class="author"><b>Junkai Zhang</b></a>,
-            <a class="author">Jingyuan Qi</a>,
-            <a class="author">Tingwei Chen</a>,
-            <a class="author">Lifu Huang</a>,
-            <a class="author">Muhao Chen</a>,
-            <a class="author">Ling Li</a>,
-            <a class="author">Wei Wang</a>,
-            <a class="author">Dawei Zhou</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/pdf/2505.20299"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://github.com/cjpcool/Metamaterial-Benchmark"><strong>Code</strong></a>]
-        </div>
-        <b><span>KDD 2025 Datasets and Benchmarks Track</span></b>
-      </div>
-    </div>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Neural network-assisted personalized handwriting analysis for Parkinson's disease diagnostics
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Guorui Chen</a>,
-            <a class="author">Trinny Tat</a>,
-            <a class="author">Yihao Zhou</a>,
-            <a class="author">Zhaoqi Duan</a>,
-            <a class="author"><b>Junkai Zhang</b></a>,
-            <a class="author">Kamryn Scott</a>,
-            <a class="author">Xun Zhao</a>,
-            <a class="author">Zeyang Liu</a>,
-            <a class="author">Wei Wang</a>,
-            <a class="author">Song Li</a>,
-            <a class="author">Katy A. Cross</a>,
-            <a class="author">Jun Chen</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://www.nature.com/articles/s44286-025-00219-5"><strong>Paper</strong></a>]
-        </div>
-        <b><span>Nature Chemical Engineering</span></b>
-      </div>
-    </div>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Continuous Treatment Effect Modeling in Multi-agent Dynamical Systems
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Zijie Huang*</a>,
-            <a class="author">Jeehyun Hwang*</a>,
-            <a class="author"><b>Junkai Zhang*</b></a>,
-            <a class="author">Jinwoo Baik</a>,
-            <a class="author">Weitong Zhang</a>,
-            <a class="author">Quanquan Gu</a>,
-            <a class="author">Dominik Wodarz</a>,
-            <a class="author">Yizhou Sun</a>,
-            <a class="author">Wei Wang</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2403.00178"><strong>Paper</strong></a>]
-        </div>
-        <b><span>ACM Web Conference (WWW) 2024</span></b>
-      </div>
-    </div>
-
-    
-
-    <!-- Generative Models Section -->
-    <h2 style="color: #2774AE; font-weight: 500; margin-top: 30px; margin-bottom: 15px;">Generative Models</h2>
-
-    <div class="pub">
-      <div class="pub-right">
-        <div class="title">
-          Fast Sampling via De-randomization for Discrete Diffusion Models
-        </div>
-        <div class="desc">
-        </div>
-        <div class="authors">
-          <font style="font-size: 11pt;">
-            <a class="author">Zixiang Chen</a>,
-            <a class="author">Huizhuo Yuan</a>,
-            <a class="author">Yongqian Li</a>,
-            <a class="author">Yiwen Kou</a>,
-            <a class="author"><b>Junkai Zhang</b></a>,
-            <a class="author">Quanquan Gu</a>
-          </font>
-        </div>
-        <div class="publish">
-          <span class="place"></span>
-        </div>
-        <div class="tags">
-          [<a class="tag" href="https://arxiv.org/abs/2312.09193"><strong>Paper</strong></a>]
-          [<a class="tag" href="https://github.com/uclaml/DNDM"><strong>Code</strong></a>]
-        </div>
-        <b><span>Advances in Neural Information Processing Systems (NeurIPS) 2024</span></b>
-      </div>
-    </div>
-    
-   
-
-    
-
-  </div>
-</div>
-</div>
-
-
-
-
-<div class="wrapper">
-  <div id="teaching" class="bio">
-      <h1 class="md-heading text-left">
-        <i class="fa fa-tasks" aria-hidden="true"></i>
-        Teaching
-      </h1>
-      <ul>
-        <li>
-          <strong>Teaching Assistant</strong> at University of California, Los Angeles<br>
-          <em>Fall 2023 - Spring 2025</em><br>
-          &nbsp&nbsp&nbsp&nbsp Introduction to Computer Science I, II (CS 31/32)<br>
-          &nbsp&nbsp&nbsp&nbsp Introduction to Algorithms and Complexity (CS 180)
-        </li>
-      </ul>
-  </div>
-</div>
-
-<div class="wrapper">
-  <div id="academicservices" class="bio">
-    <div class="bio-body" style="overflow:hidden;">
-      <h1 class="md-heading text-left">
-        <i class="fa fa-tasks" aria-hidden="true"></i>
-        Academic Services
-      </h1>
-      <b>Conference Reviewer:</b> ICML [2025], ICLR [2024-2026], NeurIPS [2025], NAACL [2025], AAAI [2024-2025], AISTATS [2024]
-    </div>
-  </div>
-</div>
-
-
-
-<footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>Personal Email:</li>
-          <li><a href="mailto:">jkzhang [at] ucla.edu</a></li>
-          <li><a href="mailto:">zhang [at] cs.ucla.edu</a></li>
-        </ul>
+        <p class="entry-detail">Ph.D. in Computer Science</p>
       </div>
 
-      <div class="footer-col  footer-col-2">
-          <a href="https://scholar.google.com/citations?user=BgkFlTYAAAAJ&hl=en" class="icon-button github">
-          <i class="ai ai-google-scholar-square icon-github"></i>
-            <span></span>
-          </a>
-
-          <!-- <a href="https://github.com/wanjiaZhao1203" class="icon-button github">
-            <i class="fa fa-github icon-github"></i>
-            <span></span>
-          </a> -->
-
-          <a href="https://www.linkedin.com/in/junkai-zhang-878787208/" class="icon-button linkedin">
-            <i class="fa fa-linkedin icon-linkedin"></i>
-            <span></span>
-          </a>
-
-          <a href="https://x.com/JunkaiZZ" class="icon-button twitter">
-            <i class="fa fa-twitter icon-twitter"></i>
-            <span></span>
-          </a>
-          <a href="CV.pdf" class="icon-button github" target="_blank">
-            <i class="fa fa-file-text icon-github"></i>
-            <span></span>
-          </a>
-
-
-
-
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Tsinghua University</span>
+          <span class="entry-date">Aug 2018 – Jun 2022</span>
+        </div>
+        <p class="entry-detail">B.S. in Mathematics, Minor in Philosophy</p>
       </div>
-	<div class="footer-col footer-col-3">
-    <!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fjun-kai-zhang.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
-		<p class="text">Last updated: Feb, 2026.<br>The style of this website is borrowed from <a href='https://wanjiazhao1203.github.io'>Wanjia Zhao</a>.</p>
-	</div>
-  </div>
-  </div>
+    </section>
 
-</footer>
-    <div class="back-to-top">Top</div>
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience</h2>
 
-<script type="text/javascript">
-jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-    
-        }
-    });
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-  </body>
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Google</span>
+          <span class="entry-date">Oct 2025 – Dec 2025</span>
+        </div>
+        <p class="entry-detail">Student Researcher, Playa Vista, CA</p>
+      </div>
 
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Scale AI</span>
+          <span class="entry-date">Jun 2025 – Sep 2025</span>
+        </div>
+        <p class="entry-detail">Post-training Research Intern, San Francisco, CA</p>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <h3>Selected Works</h3>
+
+      <div class="pub">
+        <p class="pub-title">Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training</p>
+        <p class="pub-authors"><strong>Junkai Zhang*</strong>, Zihao Wang*, Lin Gui*, Swarnashree Mysore Sathyendra, Jaehwan Jeong, Victor Veitch, Wei Wang, Yunzhong He, Bing Liu, Lifeng Jin</p>
+        <p class="pub-venue">ICLR 2026</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/pdf/2509.21500">Paper</a>
+          <a href="https://github.com/Jun-Kai-Zhang/rubrics">Code</a>
+          <a href="https://huggingface.co/datasets/JunkaiZ/Rubrics">Dataset</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">DuoGuard: A Two-Player RL-Driven Framework for Multilingual LLM Guardrails</p>
+        <p class="pub-authors">Yihe Deng*, Yu Yang*, <strong>Junkai Zhang*</strong>, Wei Wang, Bo Li</p>
+        <p class="pub-venue">AISTATS 2026</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2502.05163">Paper</a>
+          <a href="https://github.com/yihedeng9/DuoGuard">Code</a>
+          <a href="https://huggingface.co/collections/DuoGuard/duoguard-models">Model</a>
+        </p>
+      </div>
+
+      <h3>Reinforcement Learning</h3>
+
+      <div class="pub">
+        <p class="pub-title">Uncertainty-Aware Reward-Free Exploration with General Function Approximation</p>
+        <p class="pub-authors"><strong>Junkai Zhang*</strong>, Weitong Zhang*, Dongruo Zhou, Quanquan Gu</p>
+        <p class="pub-venue">ICML 2024</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2406.16255">Paper</a>
+          <a href="https://github.com/Jun-Kai-Zhang/gfa-rfe">Code</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">Optimal Horizon-Free Reward-Free Exploration for Linear Mixture MDPs</p>
+        <p class="pub-authors"><strong>Junkai Zhang</strong>, Weitong Zhang, Quanquan Gu</p>
+        <p class="pub-venue">ICML 2023</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2303.10165">Paper</a>
+        </p>
+      </div>
+
+      <h3>Optimization Methods</h3>
+
+      <div class="pub">
+        <p class="pub-title">Why Does Sharpness-Aware Minimization Generalize Better Than SGD?</p>
+        <p class="pub-authors">Zixiang Chen*, <strong>Junkai Zhang*</strong>, Yiwen Kou, Xiangning Chen, Cho-Jui Hsieh, Quanquan Gu</p>
+        <p class="pub-venue">NeurIPS 2023</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2310.07269">Paper</a>
+        </p>
+      </div>
+
+      <h3>AI for Science</h3>
+
+      <div class="pub">
+        <p class="pub-title">MatSciBench: Benchmarking the Reasoning Ability of LLM in Material Science</p>
+        <p class="pub-authors"><strong>Junkai Zhang*</strong>, Jingru Gan*, Zian Jia, Changquan Gu, Jianpeng Chen, Xiaoxuan Wang, Yanqiao Zhu, Mingyu Derek Ma, Dawei Zhou, Ling Li, Wei Wang</p>
+        <p class="pub-venue">In Submission</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/pdf/2510.12171">Paper</a>
+          <a href="https://github.com/Jun-Kai-Zhang/MatSciBench">Code</a>
+          <a href="https://huggingface.co/datasets/MatSciBench/MatSciBench">Dataset</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design</p>
+        <p class="pub-authors">Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, <strong>Junkai Zhang</strong>, Xiaofei Wen, Jingru Gan, Jianpeng Chen, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang</p>
+        <p class="pub-venue">NAACL 2025 Demo</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2412.16270">Paper</a>
+          <a href="https://zhoulab-1.cs.vt.edu:5557">Demo</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">Protein Large Language Models: A Comprehensive Survey</p>
+        <p class="pub-authors">Yijia Xiao, Wanjia Zhao, <strong>Junkai Zhang</strong>, Yiqiao Jin, Han Zhang, Zhicheng Ren, Renliang Sun, Haixin Wang, Guancheng Wan, Pan Lu, Xiao Luo, Yu Zhang, James Zou, Yizhou Sun, Wei Wang</p>
+        <p class="pub-venue">EMNLP 2025 Findings</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/pdf/2502.17504">Paper</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery</p>
+        <p class="pub-authors">Jianpeng Chen, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, <strong>Junkai Zhang</strong>, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou</p>
+        <p class="pub-venue">KDD 2025 Datasets and Benchmarks</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/pdf/2505.20299">Paper</a>
+          <a href="https://github.com/cjpcool/Metamaterial-Benchmark">Code</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">Neural network-assisted personalized handwriting analysis for Parkinson's disease diagnostics</p>
+        <p class="pub-authors">Guorui Chen, Trinny Tat, Yihao Zhou, Zhaoqi Duan, <strong>Junkai Zhang</strong>, Kamryn Scott, Xun Zhao, Zeyang Liu, Wei Wang, Song Li, Katy A. Cross, Jun Chen</p>
+        <p class="pub-venue">Nature Chemical Engineering</p>
+        <p class="pub-links">
+          <a href="https://www.nature.com/articles/s44286-025-00219-5">Paper</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">Self-powered in-stent restenosis diagnosis via magnetoelastic stents</p>
+        <p class="pub-authors">Guorui Chen, Wi Jin Kim, Youcheng Yang, Yan-Ruide Li, Jing Tian, <strong>Junkai Zhang</strong>, Xun Zhao, Kamryn Scott, Lily G. Defelice, Zeyang Liu, Jing Xu, Tzuchun Chung, Jarod Carol, Yihao Zhou, Anthony C. Wang, Olujimi A. Ajijola, Paul S. Weiss, Wei Wang, Song Li, Geoffrey P. Colby, Jun Chen</p>
+        <p class="pub-venue">Nature Cardiovascular Research</p>
+        <p class="pub-links">
+          <a href="https://www.nature.com/articles/s44161-025-00773-4">Paper</a>
+        </p>
+      </div>
+
+      <div class="pub">
+        <p class="pub-title">Continuous Treatment Effect Modeling in Multi-agent Dynamical Systems</p>
+        <p class="pub-authors">Zijie Huang*, Jeehyun Hwang*, <strong>Junkai Zhang*</strong>, Jinwoo Baik, Weitong Zhang, Quanquan Gu, Dominik Wodarz, Yizhou Sun, Wei Wang</p>
+        <p class="pub-venue">WWW 2024</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2403.00178">Paper</a>
+        </p>
+      </div>
+
+      <h3>Generative Models</h3>
+
+      <div class="pub">
+        <p class="pub-title">Fast Sampling via De-randomization for Discrete Diffusion Models</p>
+        <p class="pub-authors">Zixiang Chen, Huizhuo Yuan, Yongqian Li, Yiwen Kou, <strong>Junkai Zhang</strong>, Quanquan Gu</p>
+        <p class="pub-venue">NeurIPS 2024</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2312.09193">Paper</a>
+          <a href="https://github.com/uclaml/DNDM">Code</a>
+        </p>
+      </div>
+
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <span class="entry-title">Teaching Assistant, UCLA</span>
+          <span class="entry-date">Fall 2023 – Spring 2025</span>
+        </div>
+        <p class="entry-detail">CS 31/32 (Intro to CS I, II), CS 180 (Algorithms and Complexity)</p>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <h2>Services</h2>
+      <p>Conference Reviewer: ICML [2025], ICLR [2024–2026], NeurIPS [2025], NAACL [2025], AAAI [2024–2025], AISTATS [2024]</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>jkzhang [at] ucla.edu &middot; zhang [at] cs.ucla.edu</p>
+  </footer>
+
+</body>
 </html>
